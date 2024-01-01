@@ -1,0 +1,45 @@
+.item h3 {
+  margin: 1rem 0;
+  /* Adjusted margin for better spacing */
+  font-size: 1.5rem;
+  /* Increased font size for better readability */
+  color: #1a8ed1;
+  /* Changed text color for the heading */
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Changed align-items to center for better alignment */
+  margin-bottom: 0.5rem;
+  /* Added margin-bottom for separation */
+}
+
+.price {
+  border-radius: 20px;
+  /* Reduced border-radius for a smoother appearance */
+  padding: 0.5rem 1.25rem;
+  /* Adjusted padding for better fit */
+  background-color: #1a8ed1;
+  /* Changed background color for price */
+  color: white;
+  font-size: 1.25rem;
+  /* Adjusted font size for the price */
+}
+
+.item p {
+  color: #555;
+  /* Changed text color for the paragraph */
+  font-size: 1rem;
+  /* Adjusted font size for the paragraph */
+  margin-bottom: 1rem;
+  /* Added margin-bottom for better spacing */
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  /* Added gap between action elements */
+}

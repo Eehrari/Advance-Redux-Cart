@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  height: 6rem;
+  /* Adjusted height for better visibility */
+  padding: 0 5%;
+  /* Modified padding for better responsiveness */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a8ed1;
+  /* Changed background color for the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Added subtle box shadow */
+}
+
+.header h1 {
+  color: white;
+  font-size: 2rem;
+  /* Increased font size for the heading */
+  margin: 0;
+  /* Removed margin for better alignment */
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Changed display to flex for better layout */
+}
+
+.header ul li {
+  margin-right: 1.5rem;
+  /* Added margin-right between list items */
+}
+
+.header ul li:last-child {
+  margin-right: 0;
+  /* Removed margin for the last list item */
+}

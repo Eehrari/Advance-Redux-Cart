@@ -1,0 +1,20 @@
+.card {
+  margin: 1rem auto;
+  border-radius: 12px;
+  /* Increased border-radius for a smoother look */
+  background-color: #f9f9f9;
+  /* Soft off-white background */
+  padding: 1.5rem;
+  /* Slightly increased padding for better spacing */
+  width: 90%;
+  max-width: 40rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Subtle box-shadow for depth */
+  transition: box-shadow 0.3s ease-in-out;
+  /* Smooth transition for box-shadow */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  /* Enhanced box-shadow on hover */
+}

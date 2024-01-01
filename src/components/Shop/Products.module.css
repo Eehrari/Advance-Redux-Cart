@@ -1,0 +1,23 @@
+.products h2 {
+  color: #1a8ed1;
+  /* Updated color for the heading */
+  margin: 2rem auto;
+  text-align: center;
+  text-transform: capitalize;
+  /* Changed text-transform to capitalize */
+  font-size: 1.5rem;
+  /* Adjusted font-size for better readability */
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products ul li {
+  margin-bottom: 1rem;
+  /* Added margin between list items for better spacing */
+  font-size: 1.2rem;
+  /* Adjusted font-size for list items */
+}

@@ -1,0 +1,32 @@
+.cart {
+  max-width: 30rem;
+  background-color: #1a8ed1;
+  /* Updated background color */
+  color: white;
+  padding: 1.5rem;
+  /* Adjusted padding for better spacing */
+  border-radius: 8px;
+  /* Added border radius for a smoother look */
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+  /* Increased font size for the heading */
+  margin: 1rem 0;
+  /* Adjusted margin for better spacing */
+  color: white;
+  /* Changed text color for the heading */
+}
+
+.cart ul {
+  list-style: none;
+  padding: 1;
+  margin: 1;
+}
+
+.cart li {
+  margin-bottom: 1rem;
+  /* Added margin-bottom for list items */
+  font-size: 1.1rem;
+  /* Adjusted font size for list items */
+}

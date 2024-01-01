@@ -1,0 +1,40 @@
+.button {
+  background-color: #1ad1b9;
+  /* Updated background color */
+  border: none;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  /* Adjusted padding for better fit */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover,
+.button:active {
+  background-color: #1277b8;
+  /* Changed background color on hover/active */
+}
+
+.button span {
+  margin: 0 0.5rem;
+}
+
+.badge {
+  background-color: #1277b8;
+  /* Adjusted background color */
+  border-radius: 20px;
+  /* Slightly reduced border radius */
+  padding: 0.5rem 1.25rem;
+  /* Adjusted padding for better fit */
+  color: white;
+  /* Changed text color */
+  font-size: 0.9rem;
+  /* Adjusted font size */
+  font-weight: bold;
+  /* Added font weight */
+}

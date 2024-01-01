@@ -1,0 +1,81 @@
+.item {
+  margin: 1rem 0;
+  background-color: #1a8ed1;
+  /* Updated background color */
+  padding: 1.5rem;
+  /* Adjusted padding for better spacing */
+  border-radius: 8px;
+  /* Added border radius for a softer look */
+}
+
+.item h3 {
+  margin: 0 0 1rem 0;
+  /* Adjusted margin for the heading */
+  font-size: 2rem;
+  /* Increased font size for the heading */
+  color: white;
+  /* Changed text color for the heading */
+}
+
+.item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  /* Added margin-bottom for spacing */
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity span {
+  font-size: 1.75rem;
+  /* Adjusted font size */
+  font-weight: bold;
+  color: white;
+  /* Changed text color for quantity */
+}
+
+.price {
+  font-size: 1.75rem;
+  /* Adjusted font size */
+  font-weight: bold;
+  color: white;
+  /* Changed text color for price */
+}
+
+.itemprice {
+  font-weight: normal;
+  font-size: 1rem;
+  font-style: italic;
+  color: #f5f5f5;
+  /* Adjusted text color for item price */
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  /* Adjusted margin-top */
+}
+
+.actions button {
+  background-color: transparent;
+  border: 1px solid white;
+  margin-left: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  /* Adjusted padding for buttons */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #1277b8;
+  /* Changed background color on hover/active */
+  color: white;
+}
